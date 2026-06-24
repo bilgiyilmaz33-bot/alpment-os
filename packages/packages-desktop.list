@@ -1,0 +1,106 @@
+# Alpment OS 0.1 - Masaüstü Paketleri (Windows 11 Benzeri)
+
+# GNOME Masaüstü Ortamı
+gnome-shell
+gnome-shell-extensions
+gnome-control-center
+gnome-system-monitor
+
+# Dosya Yöneticisi ve Masaüstü
+nautilus
+nautilus-admin
+gnome-disk-utility
+
+# Terminal
+gnome-terminal
+tilix
+
+# Pencereleme Yöneticisi
+gnome-window-manager
+gnome-metacity
+
+# Ekran Kilidi ve Oturumu
+gdm3
+gnome-screensaver
+
+# Temalar ve Görünüm
+adwaita-icon-theme
+adwaita-qt
+gtk2-engines-pixbuf
+gtk2-engines-murrine
+gnome-themes-extra
+
+# Yazı Tipleri
+fonts-dejavu
+fonts-dejavu-core
+fonts-dejavu-extra
+fonts-liberation
+fonts-liberation2
+fonts-noto
+fonts-noto-cjk
+
+# Ses Sistemi
+pulseaudio
+pulseaudio-alsa
+pavucontrol
+alsa-utils
+alsa-base
+
+# Medya Çalar
+totem
+rhythmbox
+
+# Görüntü Görüntüleyicisi
+eog
+shotwell
+
+# Web Tarayıcısı
+firefox
+
+# Ofis Yazılımları
+libreoffice
+libreoffice-calc
+libreoffice-impress
+libreoffice-writer
+
+# PDF Okuyucu
+evince
+
+# Yazı Editörü
+gedit
+gedit-plugins
+
+# Kalkulator
+gnome-calculator
+
+# Saatler ve Zamanlayıcılar
+gnome-clocks
+gnome-todo
+
+# Ayarlar
+gnome-settings-daemon
+
+# İnternet
+transmission
+midori
+epiphany-browser
+
+# Grafik
+gimp
+inkscape
+gthumb
+
+# Sistemin Diğer Bölümleri
+gnome-panel
+gnome-session
+gnome-session-common
+
+# Sürücüler
+xserver-xorg
+xserver-xorg-core
+xserver-xorg-input-mouse
+xserver-xorg-input-kbd
+
+# 3D Desteği
+libglx0
+libgl1-mesa-glx

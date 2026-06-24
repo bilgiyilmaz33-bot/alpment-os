@@ -1,0 +1,27 @@
+# Alpment OS 0.1 - GTK 2.0 Tema Yapılandırması
+# Windows 11 benzeri görünüm
+
+gtk-theme-name = "Adwaita"
+gtk-icon-theme-name = "Adwaita"
+gtk-font-name = "DejaVu Sans 10"
+gtk-cursor-theme-name = "Adwaita"
+gtk-cursor-theme-size = 24
+gtk-primary-button-warps-slider = 0
+gtk-modules = "gail:atk-bridge:apostr:gail"
+
+# Pencere başlığı yazı tipi
+title_font_set = "DejaVu Sans Bold 10"
+
+# Renkler (Windows 11 benzeri)
+style "default" {
+  bg[NORMAL] = "#f3f3f3"
+  bg[ACTIVE] = "#e5e5e5"
+  fg[NORMAL] = "#000000"
+  fg[ACTIVE] = "#000000"
+  base[NORMAL] = "#ffffff"
+  base[ACTIVE] = "#0078d4"
+  text[NORMAL] = "#000000"
+  text[ACTIVE] = "#ffffff"
+}
+
+widget "*" style "default"

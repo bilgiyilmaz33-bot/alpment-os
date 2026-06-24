@@ -1,0 +1,66 @@
+# Alpment OS 0.1 - Temel Paketler
+
+# Sistem Çekirdeği
+linux-image-generic
+linux-headers-generic
+
+# Bootloader
+grub-pc
+grub-efi-amd64
+
+# Sistem Yönetimi
+systemd
+systemd-sysv
+udev
+init-system-helpers
+
+# Paket Yöneticisi
+apt
+apt-utils
+aptitude
+
+# Ağ
+network-manager
+network-manager-gnome
+wireless-tools
+wpasupplicant
+wifi-radar
+
+# Temel Araçlar
+coreutils
+findutils
+grep
+sed
+awk
+tar
+gzip
+bzip2
+xz-utils
+
+# Editörler
+vim
+nano
+emacs-nox
+
+# Geliştirici Araçları
+git
+curl
+wget
+compile-essential
+make
+
+# Sistem İzleme
+htop
+neofetch
+free
+top
+dmesg
+
+# Açıklamalar
+man-db
+info
+
+# Diğer
+sudo
+whoami
+which

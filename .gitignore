@@ -1,0 +1,45 @@
+# Alpment OS Build Ignore Kuralları
+
+# Build dizinleri
+alpment-build/
+build/
+dist/
+*.iso
+*.squashfs
+
+# Geçici dosyalar
+*.tmp
+*.log
+*.pid
+.DS_Store
+*~
+
+# Sistem dosyaları
+.cache/
+.config/
+.local/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Paketler
+*.deb
+*.rpm
+*.tar.gz
+*.tar.bz2
+*.zip
+
+# Kernels
+vmlinuz*
+initrd.img*
+
+# Node/Python (if applicable)
+node_modules/
+__pycache__/
+*.pyc
+.env
+venv/
